@@ -27,7 +27,7 @@ const App = () => {
   }
 
   const filteredColaboradores = colaboradores.filter((colaborador) => {
-    const lowerSearch = search.toLowerCase();
+    const lowerSearch = search.toLowerCase()
     return (
       colaborador.nombre.toLowerCase().includes(lowerSearch) ||
       colaborador.correo.toLowerCase().includes(lowerSearch) ||
